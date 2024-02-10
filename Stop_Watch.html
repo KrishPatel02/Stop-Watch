@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop-Watch</title>
+  </head>
+  <link rel="stylesheet" href="Stop_Watch.css" />
+    <h1 class="StopWatchHeadingsec" id="StopWatchHeadingsecid">Stop Watch</h1>
+    <div class="StopWatchContainer" id="StopWatchContainerid">
+      <div class="StopWatchsec" id="StopWatchsecid">
+        <span class="Digitsec" id="Hrid">00</span>
+        <span class="Txtsec">Hr</span>
+        <span class="Digitsec" id="Minid">00</span>
+        <span class="Txtsec">Min</span>
+        <span class="Digitsec" id="Secid">00</span>
+        <span class="Txtsec">Sec</span>
+      </div>
+      <div class="BtnContainer" id="BtnContainerid">
+        <button class="Btnsec" id="Startid" onclick="starttime()">Start</button>
+        <button class="Btnsec" id="Stopid" onclick="stoptime()">Stop</button>
+        <button class="Btnsec" id="Resetid" onclick="resettime()">Reset</button>
+      </div>
+    </div>
+    <script src="Stop_Watch.js"></script>
+  </body>
+</html>
